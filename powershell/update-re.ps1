@@ -63,6 +63,6 @@ if ($createDesktopShortcut) {
 
 	$DesktopPath = [Environment]::GetFolderPath("Desktop")
 	
-	set-shortcut "$DesktopPath\GTA3 Remastered.lnk" "$gta3Steam\re3"
-	set-shortcut "$DesktopPath\GTA VC Remastered.lnk" "$vcSteam\reVC"
+	set-shortcut "$DesktopPath\GTA3 Remastered.lnk" "$gta3Steam\re3.exe"
+	set-shortcut "$DesktopPath\GTA VC Remastered.lnk" "$vcSteam\reVC.exe"
 }
